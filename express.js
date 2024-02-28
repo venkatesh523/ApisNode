@@ -24,6 +24,8 @@ app.use(express.json());
 const routes = require('./routes/index.routes');
 app.use('/api', routes);
 
+
+//localhost connected
 app.listen(3000, () => {
     console.log(`server started at ${3000}`)
 })
